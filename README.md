@@ -1,17 +1,71 @@
-# todo_list
+# 📱 To-Do List em Flutter
 
-A new Flutter project.
+Um aplicativo simples de lista de tarefas desenvolvido em **Flutter**, com foco em praticar gerenciamento de estado, manipulação de listas e interações com o usuário.
 
-## Getting Started
+## ✨ Funcionalidades
 
-This project is a starting point for a Flutter application.
+* ➕ **Adicionar tarefa**
+  Digite no campo de texto e toque no botão "+" para adicionar uma nova tarefa à lista.
 
-A few resources to get you started if this is your first Flutter project:
+* 🗑️ **Remover tarefa individual**
+  Pressione e segure uma tarefa para removê-la.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* ❌ **Limpar todas as tarefas**
+  O botão "-" remove todas as tarefas da lista.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎯 Objetivo do projeto
+
+Este projeto foi criado para praticar:
+
+* Uso de StatefulWidget
+* Atualização de interface com setState
+* Manipulação de listas em Dart
+* Interações básicas (clique e long press)
+
+## 🛠️ Tecnologias utilizadas
+
+* Flutter
+* Dart
+* Material Design
+
+## 📦 Como executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+2. Acesse o projeto:
+
+```bash
+cd seu-repositorio
+```
+
+3. Instale as dependências:
+
+```bash
+flutter pub get
+```
+
+4. Execute o app:
+
+```bash
+flutter run
+```
+
+## 📱 Estrutura básica
+
+* TextField → Entrada de tarefas
+* ListView.separated → Exibição da lista
+* FloatingActionButton → Ações principais (adicionar e limpar)
+
+## 💡 Melhorias futuras
+
+* ✅ Marcar tarefa como concluída
+* 💾 Persistência com SharedPreferences
+* ✏️ Editar tarefas
+* 🎨 Melhorar UI/UX
+* 🔄 Animações nas interações
+
+
